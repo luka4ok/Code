@@ -1,0 +1,77 @@
+body {
+  background-color: #f5f1f2;
+}
+
+.content {
+  width: 500px;
+  margin: auto;
+}
+
+.name-and-photo {
+  margin-top: 50px;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  border-bottom: solid 1px #c4c1c4;
+
+}
+
+.photo-wraper {
+  display: flex;
+  justify-content: center;
+}
+
+.photo {
+  align-items: center;
+  border: 1px solid #8f8f8f;
+  display: flex;
+  height: 200px;
+  justify-content: center;
+  overflow: hidden;
+  width: 200px;
+}
+
+.photo img {
+  width: auto;
+  height: 100%;
+}
+
+.reasons {
+  padding-bottom: 20px;
+  border-bottom: solid 1px #c4c1c4;
+}
+
+.contacts {
+  padding-bottom: 20px;
+  border-bottom: solid 1px #c4c1c4;
+}
+
+.text-indent {
+  text-indent: 40px;
+}
+
+h1 {
+  font: bold 36px Arial, Helvetica, sans-serif;
+  text-transform: uppercase;
+  text-align: center;
+  margin: 0 0 30px 0;
+  color: #010101;
+}
+
+h2 {
+  font: bold 18px Arial, Helvetica, sans-serif;
+  color: #1f1f1f;
+}
+
+ul {
+  margin: 0px;
+  font: 14px Arial, Helvetica, sans-serif;
+}
+
+p {
+  font: 14px Arial, Helvetica, sans-serif;
+  color: #1f1f1f;
+}
+
+a {
+  font-family: Arial, Helvetica, sans-serif;
+}
