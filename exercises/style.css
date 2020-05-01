@@ -1,0 +1,13 @@
+.one {
+    background-color: rgb(214, 10, 10);
+    height: 100px;
+    width: 100px;
+    margin: 0 auto;
+    border: 1px solid black;
+    position: relative;
+}
+
+.two {
+    height: 40px;
+    background-color: #ccc;
+}
