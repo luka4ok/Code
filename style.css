@@ -1,4 +1,6 @@
 body {
+  /* body has some indentation at the top and also some default margins and others styles
+  please read about clear css and css normalize and chose one solution */
   background-color: #f5f1f2;
 }
 
@@ -9,23 +11,23 @@ body {
 
 .name-and-photo {
   margin-top: 50px;
+  /*  u don't need marging together with padding here  */
   margin-bottom: 20px;
   padding-bottom: 20px;
   border-bottom: solid 1px #c4c1c4;
-
 }
 
 .photo-wraper {
+  /* please repeated styles to separate classes eg: .d-flex { display: flex }, justify-content-center { justify-content: center; } etc. */
   display: flex;
   justify-content: center;
 }
+
 
 .photo {
   align-items: center;
   border: 1px solid #8f8f8f;
-  display: flex;
   height: 200px;
-  justify-content: center;
   overflow: hidden;
   width: 200px;
 }
@@ -49,6 +51,7 @@ body {
   text-indent: 40px;
 }
 
+/* do not style tags directly, please use classes */
 h1 {
   font: bold 36px Arial, Helvetica, sans-serif;
   text-transform: uppercase;
@@ -57,21 +60,33 @@ h1 {
   color: #010101;
 }
 
+/* do not style tags directly, please use classes */
 h2 {
   font: bold 18px Arial, Helvetica, sans-serif;
   color: #1f1f1f;
 }
 
+/* do not style tags directly, please use classes */
 ul {
   margin: 0px;
   font: 14px Arial, Helvetica, sans-serif;
 }
 
+/* do not style tags directly, please use classes */
 p {
   font: 14px Arial, Helvetica, sans-serif;
   color: #1f1f1f;
 }
 
+/* do not style tags directly, please use classes */
 a {
   font-family: Arial, Helvetica, sans-serif;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.justify-content-center {
+  justify-content: center;
 }
